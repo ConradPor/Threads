@@ -88,33 +88,3 @@ public class ThreadExample {
     }
 }
 
-
-
-        /* String content = stringBuilder.toString();
-
-        int linkIndex = content.indexOf("https://www.otodom.pl/pl/oferta/");
-        String substring = content.substring(linkIndex);
-        String link = substring.split(".html")[0];
-        System.out.println(link);*/
-
-       /* Thread t1 = new Thread(new Runnable() {
-            public void run() {
-                for (int i = 0; i < 999; i++) {
-                    System.out.println(Thread.currentThread().getName() + " " + i);
-                }
-            }
-        });
-        Thread t2 = new Thread(new Runnable() {
-            public void run() {
-                for (int i = 0; i < 999; i++) {
-                    System.out.println(Thread.currentThread().getName() + " " + i);
-                }
-            }
-        });
-        t2.setPriority(10);
-        t1.setName("t1");
-        t2.setName("t2");
-        //t1.run("t1");  run in main thread
-        t1.start();
-        t2.start();*/
-
